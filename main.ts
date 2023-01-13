@@ -4,4 +4,10 @@ input.onButtonPressed(Button.A, function () {
 input.onButtonPressed(Button.B, function () {
     basic.showIcon(IconNames.Happy)
 })
-basic.showIcon(IconNames.Meh)
+basic.showLeds(`
+    # # # # #
+    # . . # #
+    # . # # #
+    # # # . #
+    # # # # #
+    `)
